@@ -459,9 +459,9 @@ locals {
   }
 }
 
-module "key-vault-secret" {
-  source       = "./modules/key-vault-secret"
-  name         = "secret-sauce"
-  value        = "0987654321"
-  key_vault_id = module.key-vault["vault"].main.id
-}
+# module "key-vault-secret" {
+#   source       = "./modules/key-vault-secret"
+#   name         = "secret-sauce"
+#   value        = "0987654321"
+#   key_vault_id = module.key-vault["vault"].main.id
+# }
