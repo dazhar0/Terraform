@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: myagentpool
+pool: myagent
 
 steps:
 - script: echo Hello, world!
